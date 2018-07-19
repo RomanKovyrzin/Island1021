@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HibernateTest/src/HibernateTest.iml" filepath="$PROJECT_DIR$/../HibernateTest/src/HibernateTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFXTest.iml" filepath="$PROJECT_DIR$/JavaFXTest.iml" />
+    </modules>
+  </component>
+</project>
