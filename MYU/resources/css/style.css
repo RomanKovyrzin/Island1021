@@ -1,0 +1,188 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+  /* Header Section */
+
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  opacity: 0.9;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.brand span {
+  color: rgb(150, 190, 190);
+}
+
+nav {
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+nav a {
+color: seashell;
+  opacity: 0.9;
+  margin-left: 10px;
+}
+
+/* Main container  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 62px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mission Section */
+
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/sky-main-banner.jpg");
+  background-size: cover;
+}
+
+.mission h2, h4 {
+  opacity: 0.9;
+}
+
+.mission h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mission h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.central {
+  width: 100%;
+  display: inline;
+  background-color: black;
+}
+
+  /* Menu Section */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin-top: 69px;
+}
+
+.menu img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+.menu h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.menu h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.teaType {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.teaType div {
+  display: inline-block;
+}
+
+  /* Locations Section */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/air-ballons-location.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  margin-top: 69px;
+  opacity: 0.9;
+}
+
+  .locations h2 {
+    margin: 27px 0px;
+  }
+
+.adress {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.adress div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px 130px 0px;
+  background-color: black;
+  align-self: auto;
+  opacity: 1;
+}
+
+  /* Footer Section */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .footer {
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  .footer h2 {
+    margin-top: 0px;
+  }
+
+  .copyright {
+    align-self: flex-start;
+    margin-left: 20px;
+  }
